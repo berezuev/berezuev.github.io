@@ -1,8 +1,15 @@
 ﻿<!doctype html>
 <html>
 <head>
-<title>Последние выполненные работы, Алексей Березуев</title>
+<title>Alexey Berezuev</title>
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+<script>
+function email(){
+  var parts = ["alexey", "berezuev", "ru", "&#46;", "&#64;"];
+  var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
+  document.getElementById("email").innerHTML=email;
+}
+</script>
 <style>
 * {font-family: 'Roboto Condensed', sans-serif; background: #eee;}
 a:visited {color: #111;}
@@ -14,8 +21,8 @@ h3.first {margin: 0;}
 .f_left {float: left;}
 </style>
 </head>
-<body>
-<h1 class="f_left">alexey@</h1><h1>berezuev.ru</h1>
+<body onload="email();">
+<h1 id="email"></h1>
 <div class="clr_both"></div>
 <h1>skype: ko3blpbok</h1>
 <h1>github: <a href="https://github.com/berezuev">berezuev</a>
