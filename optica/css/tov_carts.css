@@ -1,0 +1,59 @@
+#breadcrumbs {width: 900px; margin: -25px auto 15px auto; padding-left: 30px; color: #161616; font: 11px Verdana, sans-serif; background: #fff url('../img/blue/breadcrumbs.png') no-repeat 11px -2px;}
+#breadcrumbs a {color: #47589d;}
+
+#container {background-image: url('../img/blue/content/bg.png');  margin-top: 0px !important; margin-top: -5px; min-width: 960px; width: 100%;}
+#content {width: 720px !important; width: 710px; padding: 15px -10px 30px 10px !important; padding: 15px 0 30px 0px; min-width: 720px; margin: auto; margin-right:220px; margin-left: 0px;}
+#content p { padding: 10px; color: #161616; line-height: 18px;}
+#content img {padding: 5px;}
+#photoes img {padding: 0px; margin-bottom: 5px; border: 1px solid #d2d2d2;}
+
+#right {float: right; width:220px; margin: auto 20px auto auto !important; margin: 0 0px 0 -10px; padding-bottom: 20px;}
+#ramka { width:220px; margin: 20px 0 0px 20px !important; margin: 20px 0px 0 0; padding: 1px 0 5px 0; background: #eaefd8;}
+.inright {width: 210px; background: #fff; font-size: 16px; margin: 5px; padding-top: 8px;}
+.inright p {margin: 0 5px;}
+.inrightwhite {font-size: 16px; background: #fff; padding: 10px 0px 20px 0px; width: 204px;  margin: 20px 0 0px 20px !important; margin: 20px 0px 0 0;  padding: 8px;}
+.inrightwhite p {font-size: 12px; color: #6f6f6f; margin: 5px 0;}
+.quantity {font-weight: bold;}
+.block {width: 210px; background: #fff; height: 262px; float: left; margin: 0 !important; }
+.block img {width: 180px; padding: 30px 15px 15px 15px;}
+.block p {width: 190px; padding: 30px 10px 7px 10px; margin: 0;}
+.block a {color: #4758a5; font: 14px Verdana, sans-serif;}
+.block h2 {color: #898989; font: 12px Verdana, sans-serif; padding: 0px 12px 15px 12px;}
+.block strong {color: #0a0a0a; font: bold 14px Verdana, sans-serif; padding: 10px 12px 0px 12px;}
+
+.buybutton {float: right; width: 90px; height: 30px; background: #fff url('../img/blue/buybutton.png'); margin: -20px 15px 10px 0px !important; margin: -23px 7px 10px 10px;}
+.buybutton a { display: block; margin: 5px 5px 5px 18px; text-decoration: none; color: #fff;}
+.pagebuy {margin: 10px -20px 0 0 !important; margin-right: 0px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.pagebuy a {margin: 7px 5px 0 23px;}
+.trybutton {width: 120px; height: 30px; background: #fff url('../img/blue/trybutton.png'); margin: 10px 0px -10px 20px !important; margin-left: 0px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.trybutton a { display: block; padding: 7px 25px; text-decoration: none; color: #fff;}
+
+.pickcolor {margin-left: 15px;}
+.pickcolor a {font-size: 11px;}
+#pickcolor {margin-left: 15px;}
+#pickcolor a {font-size: 11px;}
+.colorpicker { -moz-border-radius: 3px; -webkit-border-radius: 3px; width: 25px; height: 25px; margin: 15px 10px 5px 2px; float: left;  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5); box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+
+.picked {background-image: url("../img/pickedcolor.gif") !important;}
+#scales p {margin: 2px 0; color: #a8a8a8;}
+#scales img {vertical-align: -11px;}
+
+.blockspr {border-bottom: 1px dotted #aaa; width: 190px; color: #fff; margin: auto;}
+#wrap {width: 960px; margin: auto;}
+.section {margin-bottom: 5px;}
+.section a {font-size: 12px; vertical-align: 7px; color: #4758a5;}
+.showall {font: 24px Verdana, sans-serif; color: #000; margin-top: -5px;}
+.s {color: #f00; font-size: 12px;vertical-align: 2px; text-decoration: line-through;}
+
+.preview {float: right; margin: 0 !important; margin-top: -403px; }
+.preview p {margin: 0; padding: 0; float: right;}
+
+.comment {background: #fff; width: 680px; min-height: 80px; padding: 12px 12px 0 12px; margin-top: 20px;}
+.name {font-weight: bold;}
+.date {color: #898989;}
+.stars {float: right;}
+
+.subcomment {background: #fffff3; width: 630px !important; width: 628px; min-height: 80px; padding: 12px 12px 0 12px; margin: 20px 0 0 50px;}
+.subcommentarrow {width: 50px; height: 50px; margin-top: 20px; background: url('../img/blue/subcomments.png') no-repeat top left;  float: left;}
+#asklogin {background: #fed1d1; width: 680px; height: 30px; padding: 12px 12px 0 12px; margin-top: 20px; text-align: center; color: #191919;}
+#asklogin a {color: #4758a5;}

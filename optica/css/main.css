@@ -1,0 +1,87 @@
+html, body {margin:0 auto; font: 12px Verdana, sans-serif; background: #fff url('../img/blue/header/topmenubg.png') repeat-x; }
+a {color: #4d59a1;}
+#wrapper {height:auto !important; min-height:100%; width: 960px; margin: auto;}
+
+#topmenu {width: 100%; min-width: 960px; height: 40px;}
+#topmenu a {color: #434343;}
+#intopmenu {width: 960px; height: 40px; margin: auto;}
+#lefttopmenu {line-height: 36px; height: 40px; width: 960px; float: none !important; float: left; clear: none !important; clear: right;}
+#lefttopmenu ul {overflow: hidden; zoom: 1; float: left;}
+#lefttopmenu li {list-style: none; float: left; padding: 0 19px; margin: 0 1px 0 -1px;}
+#righttopmenu {width: 167px; float: right; text-align: right; line-height: 37px; height: 40px; background-image: url('../img/blue/header/key.png'); background-repeat: no-repeat; padding: 0px 13px 5px 15px;}
+
+#header {height:254px; width: 960px; margin: auto;}
+#headerlogo {width: 241px; height: 117px; background-image: url('../img/blue/header/logo.png'); float: left;}
+#headercallme {width: 202px; height: 117px; margin-left: 220px; color: #191919; font: 23px Arial, sans-serif;  float: left;}
+#headercallme a {color: #b6b6b6; font: 10px Verdana, sans-serif; }
+#headercallme p {width: 97px; height: 12px; margin: -55px 65px !important; margin: -50px 65px;}
+#headercode {font: 12px Verdana, sans-serif; color: #898fcd; line-height: 120px; vertical-align:7px; padding-right: 4px;}
+#headercartimage {width: 40px; margin-left: 700px; height: 117px; line-height: 122px !important; line-height: 107px; padding-left: 12px; color: #b7b7b7; text-shadow: 1px 1px 0px #fff; }
+.cartempty {background-image: url('../img/blue/header/cart.png'); background-repeat: no-repeat; background-position: center 50px !important; background-position: center;}
+.cartfull {background-image: url('../img/blue/header/cartplus.png'); background-repeat: no-repeat; background-position: center 50px !important; background-position: center;}
+#headercarttext {height: 50px; width: 200px; float: right; padding: 50px 0px 50px 0px;}
+#headercarttext a {color: #4758a5;}
+#headercarttext p {margin: 0px;}
+
+#menu {margin-top: 10px !important; margin-top: -20px; width: 960px; height: 50px; background-image: url('../img/blue/header/menubg.png');}
+#menu ul {overflow: hidden; zoom: 1; float: left; margin-left: 10px; margin-top: -26px !important; margin-top: 0px;}
+#menu li {list-style: none; float: left; padding: 0px 20px 0 20px !important; margin-top: 16px !important; margin-top: 18px;}
+#menu a {color: #fff; text-decoration: none; display: block;}
+#menu li.sep {width: 2px; height: 70px; background-image: url('../img/blue/header/menubgsepor.png'); padding: 0px !important; margin-top: -22px !important; margin-top: -20px;}
+
+#search {width: 960px; height: 40px; background-image: url('../img/blue/header/searchbg.png'); }
+#search input {float: left;}
+input.poisk {width: 895px; height: 15px; border: 0px; margin: 12px 0px 8px 12px !important; margin: 12px 0px 8px 12px; padding-left: 8px; color: #9b9b9b; font: italic 12px Verdana, sans-serif; float: left;
+-moz-border-radius: 3px; 
+-webkit-border-radius: 3px;
+border-radius: 3px;}
+
+input.poiskon {color: #000; font: 12px Verdana, sans-serif;}
+
+#slider {width: 960px; height: 300px; padding-top: 40px;}
+#sliderselect {width: 960; height: 18px; padding-top: 10px; text-align: center;}
+
+#container {background-image: url('../img/blue/content/bg.png');  margin-top: 350px !important; margin-top: 20px; min-width: 960px; width: 100%;}
+#abovebg {height: 8px; width: 100%; background: #fff url('../img/blue/content/abovebg.png') repeat-x bottom;}
+#content {width: 960px; margin: auto; padding: 15px 0px 30px 10px !important; padding: 15px 60px 30px 50px; min-width: 960px;}
+#content p {margin: 0px;}
+#belowbg {height: 10px; width: 100%; background: #fff url('../img/blue/content/belowbg.png') repeat-x top;}
+.showall {margin: 8px 21px 0px 0px; float: right; color: #4758a5;}
+.section {color: #191919; font: 24px Arial, sans-serif;  margin: 0px 0px 15px 10px;}
+.section img {vertical-align:middle;}
+.block {width: 220px; height: 290px; float: left; background: #fff url('../img/blue/blocks.png') no-repeat bottom; margin: 0px 9px 25px 9px !important; margin: 0px 8px 25px 8px;}
+.block img {width: 190px; padding: 30px 15px 15px 15px;}
+.block p {width: 200px; padding: 30px 10px 7px 10px;}
+.block a {color: #4758a5; font: 14px Verdana, sans-serif;}
+.block h2 {color: #898989; font: 12px Verdana, sans-serif; padding: 0px 12px 15px 12px;}
+.block strong {color: #0a0a0a; font: bold 14px Verdana, sans-serif; padding: 10px 12px 0px 12px;}
+#button {position: relative; bottom: 30px; left:50%;z-index:1000; opacity:0; background: red; }
+.buybutton {float: right; width: 90px; height: 30px; background: #fff url('../img/blue/buybutton.png'); margin: -7px 15px 10px 0px !important; margin: -23px 7px 10px 10px;}
+.buybutton a { display: block; margin: 5px 5px 5px 18px; text-decoration: none; color: #fff;}
+#spacer {height:100px;}
+#footer {height:132px; margin: auto; margin-top: -132px; width: 960px;}
+.foot {float: left; width: 200px; margin: 50px 10px 10px 30px !important; margin-left: 10px;}
+.clear {clear:both;}
+
+#parent_primerka {background-image: url('../img/primerka/primerkabg.png'); height: 100%; position: fixed; width: 100%; z-index: 100; top: 0; left: 0; margin: auto;}
+#primerka {background-color: #fff; height: 550px; position: fixed; top: 100px; left: 50%; margin-left: -150px; font-size: 16px; width: 340px; padding: 0 10px;}
+.closer {float: right; cursor: pointer; background: #fff url('../img/primerka/close.png'); height: 15px; width: 15px; margin: 20px 10px;}
+#primerkabig img {width: 320px; margin-left: 7px;}
+.primerkasmall {width: 100px; height: 100px; float: left; margin: 0 5px;}
+#primerkabutton {width: 340px; height: 40px; background: #fff url('../img/primerka/upload.png'); margin-top: 15px;}
+
+#modal { position: fixed; top: 100px;  font-size: 16px; padding: 0 10px; background: #fff; width: 720px; height: 320px; left: 50%; margin-left: -360px;}
+#modal img {border: solid 1px #d2d2d2;}
+#modalleft {position: fixed; top: 100px; height: 320px; width: 40px; background: url('../img/modal/left.png') no-repeat center left; left: 50%; margin-left: -400px; }
+#modalright {position: fixed; top: 100px; height: 320px; width: 30px; background: url('../img/modal/right.png') no-repeat center right; left: 50%; margin-left: 390px;}
+#modalglasses {float: left; margin: 8px 5px 0px 0px;}
+#modalglasses p {margin: 4px auto;}
+#modalcutted {float: left; margin-top: -3px;}
+#modalcutted img {height: 295px;}
+
+#modalarticle h1 a {color: #4758a5; font-size: 24px; margin-left: 20px;}
+#modalarticle h2 {font-weight: bold; font-size: 12px; color: #898989; margin: 5px 0px 0px 300px;}
+p.modalp {margin-left: 300px; font-size: 12px; line-height: 20px;}
+
+.colortitle {font-weight: bold; font-size: 12px; margin: 18px 10px 0px 15px; float: left;}
+.modalprice {font-weight: bold; font-size: 14px; margin: 30px 0 0 320px;}

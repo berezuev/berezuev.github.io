@@ -1,0 +1,85 @@
+#breadcrumbs {width: 900px; margin: -25px auto 15px auto; padding-left: 30px; color: #161616; font: 11px Verdana, sans-serif; background: #fff url('../img/blue/breadcrumbs.png') no-repeat 11px -2px;}
+#breadcrumbs a {color: #47589d;}
+
+#container {background-image: url('../img/blue/content/bg.png');  margin-top: 0px !important; margin-top: -5px; min-width: 960px; width: 100%;}
+#content {width: 720px !important; width: 710px; padding: 15px 0 30px 0px !important; min-width: 720px; margin: auto; margin-right:220px; margin-left: 0px;}
+#content p { padding: 10px; color: #161616; line-height: 18px;}
+
+#photoes img {padding: 0px; margin-bottom: 5px; border: 1px solid #d2d2d2;}
+
+#right {float: right; width:220px; margin: auto 20px auto auto !important; margin: 0 0px 0 -10px;}
+#ramka { width:220px; margin: 15px 0 0px 20px !important; margin: 15px 0px 0 0; padding: 1px 0 5px 0; background: #eaefd8;}
+.inright {width: 210px; background: #fff; font-size: 16px; margin: 5px; padding-top: 8px;}
+.inright p {margin: 0 5px 3px 5px;}
+.inrightwhite {font-size: 16px; background: #fff; padding: 10px 0px 20px 0px; width: 204px;  margin: 20px 0 0px 20px !important; margin: 20px 0px 0 0;  padding: 8px;}
+.inrightwhite p {font-size: 12px; color: #6f6f6f; margin: 5px 0;}
+.quantity {font-weight: bold;}
+
+.block {width: 220px; height: 290px; float: left; background: #fff url('../img/blue/blocks.png') no-repeat bottom; margin: 0px 9px 25px 9px !important; margin: 0px 7px 25px 7px;}
+.block img {width: 190px; padding: 30px 15px 35px 15px;}
+.block p {width: 200px; padding: 30px 10px 7px 10px;}
+.block a {color: #4758a5; font: 14px Verdana, sans-serif;}
+.block h2 {color: #898989; font: 12px Verdana, sans-serif; padding: 0px 12px 15px 12px;}
+.block strong {color: #0a0a0a; font: bold 14px Verdana, sans-serif; padding: 10px 12px 0px 12px;}
+
+.blockr {width: 210px; background: #fff; height: 262px; float: left; margin: 0 !important;;}
+.blockr img {width: 180px; padding: 30px 15px 15px 15px;}
+.blockr p {width: 190px; padding: 30px 10px 7px 10px; margin: 0;}
+.blockr a {color: #4758a5; font: 14px Verdana, sans-serif;}
+.blockr h2 {color: #898989; font: 12px Verdana, sans-serif; padding: 0px 12px 15px 12px;}
+.blockr strong {color: #0a0a0a; font: bold 14px Verdana, sans-serif; padding: 10px 12px 0px 12px;}
+
+.buybutton {float: right; width: 90px; height: 30px; background: #fff url('../img/blue/buybutton.png'); margin: -5px 15px 10px 0px !important; margin: -15px 7px 10px 10px;}
+.buybutton a { display: block; margin: 5px 5px 5px 18px; text-decoration: none; color: #fff;}
+.rightbutton { margin: -20px 15px 10px 0px !important; margin: -23px 7px 10px 10px;}
+.pagebuy {margin: 10px -20px 0 0 !important; margin-right: 0px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.pagebuy a {margin: 7px 5px 0 23px;}
+.trybutton {width: 120px; height: 30px; background: #fff url('../img/blue/trybutton.png'); margin: 10px 0px -10px 20px !important; margin-left: 0px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.trybutton a { display: block; padding: 7px 25px; text-decoration: none; color: #fff;}
+
+p.rightheader {margin: 0px 12px;}
+
+#pickcolor {margin-left: 15px; padding-bottom: 25px;}
+.pickcolor {margin-left: 15px; padding-bottom: 25px;}
+a.filterlink {font-size: 11px; text-decoration: none; border-bottom: dashed 1px #4d59a1; }
+.colorpicker { -moz-border-radius: 3px; -webkit-border-radius: 3px; width: 25px; height: 25px; margin: 20px 10px 5px 2px; float: left;  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5); box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+.picked {background-image: url("../img/pickedcolor.gif") !important;}
+#scales p {margin: 2px 0; color: #a8a8a8;}
+#scales img {vertical-align: -11px;}
+
+#types {text-align: center; padding-bottom: 5px;}
+.blockspr {border-bottom: 1px dotted #aaa; width: 190px; color: #fff; margin: auto;}
+#wrap {width: 960px; margin: auto;}
+.section {margin-bottom: 5px; margin: 8px 0px 0px 10px;}
+.section a {font-size: 12px; vertical-align: 7px; color: #4758a5;}
+.showall {font: 12px Verdana, sans-serif; color: #000; margin: 10px 0px 0px 0px;}
+.showall s {color: #f00; font-size: 12px;vertical-align: 2px;}
+
+#sortbyprice {font-size: 11px; text-align: center; margin: 10px;}
+#sortbyprice div {line-height: 31px; height: 31px; }
+#sortbyprice a {text-decoration: none; color: #fff;}
+.pricetop {width: 190px; background: #fff url('../img/blue/sortbyprice/top.png');}
+.pricetopselected {background: #fff url('../img/blue/sortbyprice/tops.png');}
+.pricemid {width: 190px; margin-top; background: #fff url('../img/blue/sortbyprice/mid.png');}
+.pricemidselected {background: #fff url('../img/blue/sortbyprice/mids.png');}
+.pricebot {width: 190px; background: #fff url('../img/blue/sortbyprice/bot.png');}
+.pricebotselected {background: #fff url('../img/blue/sortbyprice/bots.png');}
+
+.preview {float: right; margin: 0 !important; margin-top: -403px; }
+.preview p {margin: 0; padding: 0; float: right;}
+
+
+
+#gender {width: 190px; height: 30px; font-size: 11px; text-align: center; margin: 10px auto 5px auto;}
+#gender a {color: #fff; text-decoration: none;}
+#gender div {height: 30px; line-height: 30px; }
+.men { float: left; width: 73px; background: url('../img/blue/gender/men.png') ;}
+.menselected { background: url('../img/blue/gender/mensel.png') ;}
+.women { float: left; width: 73px; background: url('../img/blue/gender/women.png') ;}
+.womenselected { background: url('../img/blue/gender/womensel.png') ;}
+.child { float: left; width: 44px; background: url('../img/blue/gender/child.png') ;}
+.childselected { background: url('../img/blue/gender/childsel.png') ;}
+
+#brands {font-size: 11px; padding: 10px;}
+#brands input {vertical-align: -3px; margin: 4px 7px;}
+.hole {margin-bottom: 15px;}

@@ -1,0 +1,39 @@
+#left {width: 120px; float: left;}
+#right {width: 625px; float: right; margin-top: 15px;}
+#right a {color: black;}
+#breadcrumbs {margin: 4px 0 0 5px; font-size: 8px;}
+
+#cataloghead {background: url('../img/menubg.png'); width: 102px; height: 19px; margin: 5px 0 0 2px; padding: 5px 0 0 15px; color: #f87d04;}
+#catalogbg {background: #c4d3d9; width: 117px; margin: 0 0 0 2px; padding: 3px 0 1px 0;}
+.catalogsection {background: #dbebf1; width: 111px; margin: auto auto 4px auto;}
+#catalogbg li { margin: 5px 0 5px 0;}
+#catalogbg a {color: #000;}
+.catalogsection ul {margin: 0 0 0 13px; padding: 8px 0; font-size: 11px;}
+.catalogsection ul ul {margin-left: 7px; padding: 0; font-size: 9px; }
+/* I hope, designer of this site will be burned in hell. */
+#photo { width: 300px;text-align: center; margin-top: 10px;}
+#photo img { max-width: 200px; }
+.miniphoto:first-child {width: 170px;}
+.miniphoto:first-child img {width: 150px; margin: auto; ;}
+.miniphoto {width: 80px; border: 1px solid #eceded; text-align: center; float: left; margin: 0 10px 5px 0;}
+.miniphoto img {width: 65px;}
+#stats { width: 323px; float: right; margin: 3px 0 0 0;}
+h1 {font-weight: bold; font-size: 13px; color: #f87d04;} 
+p {margin: 5px 0px; font-size: 9px;}
+p.price {color: #6d0305;font-weight: bold; font-size: 15px;}
+.colorpicker {width: 27px; height: 21px; border: solid 1px #c7c7c5; float: left; cursor: pointer; margin-right: 5px;}
+.sizepicker {width: 27px; height: 16px; border: solid 1px #c7c7c5; float: left; cursor: pointer; margin-right: 5px; text-align: center; font-size: 8px; padding-top: 5px;}
+.picked {border-color: #397685;}
+#tocartbg {width: 308px; height: 25px; background: #c4d3d9; margin: 6px 0 0 0; padding: 5px 0 0 6px;}
+#quantity {width: 31px; height: 19px; border: 1px solid #ccccca; background: white;}
+#quantity input {width: 25px; height: 13px; border: 0px; margin: 2px 0 0 2px; font-size: 10px; text-align: center; outline-style: none;}
+#tocartbutton {width: 66px; height: 23px; float: right; cursor: pointer; margin: -1px 5px 2px 0;}
+#description {font-size: 9px; border: 1px solid #edeeee; padding: 3px 12px; margin-top: 10px;}
+#description p.stats {color: #f87d04;}
+#recommendation {text-align: center;}
+#recommend {min-width: 200px; min-height: 120px; position: relative; float: left; left: 50%;}
+.recommend {width: 100px; position: relative; position: relative; float: left; right: 50%; color: #6d0305;}
+.recommend img {width: 90px;}
+.recommend a {color: black; }
+
+.MainPrImg img {max-height: 200px;}

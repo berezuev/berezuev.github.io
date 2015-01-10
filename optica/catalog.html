@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/catalog.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]>
+	<style type="text/css">
+	.colorpicker {border: 1px solid gray;}
+	</style>
+<![endif]-->
+
+<!--[if !lt IE 6]>
+	<style type="text/css">img, div { behavior: url(js/iepngfix.htc); }</style>
+<![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<script type="text/javascript">
+jQuery(function($) {
+ $('#searchinput')
+  .focus(function(){if ($(this).val() == 'Найти очки своей мечты') {$(this).val(''); $(this).addClass('poiskon');} })
+  .blur(function(){if ($(this).val() == '') {$(this).val('Найти очки своей мечты'); $(this).removeClass('poiskon');} })
+});
+</script>
+
+<title>Оптика+ catalog.html</title>
+</head>
+<body>
+
+<div id='wrapper'>
+	<div id='topmenu'>
+		<div id='intopmenu'>
+			<div id='righttopmenu'>
+				<a href='#'>Вход</a> | <a href='#'>Регистрация</a>
+			</div>
+			<div id='lefttopmenu'>
+				<ul>
+		   			<li><a href="#">Оплата</a></li>
+		   			<li><a href="#">Доставка</a></li>
+		   			<li><a href="#">О магазине</a></li>
+		   			<li><a href="#">Гарантии</a></li>
+		   			<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id='header'>
+				
+			<div id='headerlogo'></div>
+			<div id='headercallme'><span id='headercode'>+7(495)</span>280-40-15<p><a href='#'>Перезвонить мне</a></p></div><div id='headercarttext'><p>В <a href='#'>корзине</a> товаров: 10 шт.</p><p>На сумму: 5900 руб.</p></div>
+			<div id='headercartimage' class='cartfull'>10</div>	
+			<div id='menu'>
+				<ul>
+		   			<li><a href="#">Главная</a></li><li class='sep'></li>
+		   			<li><a href="#">Очки для зрения</a></li><li class='sep'></li>
+		   			<li><a href="#">Солнцезащитные очки</a></li><li class='sep'></li>
+		   			<li><a href="#">Линзы</a></li><li class='sep'></li>
+		   			<li><a href="#">Оправы</a></li><li class='sep'></li>
+		   			<li><a href="#">Аксессуары</a></li><li class='sep'></li>
+		   			<li><a href="#">Информация</a></li><li class='sep'></li>
+				</ul>
+			</div>
+			<div id='search'><form method="get" id="searchform" action="search.php"><div><input type="text" class="poisk" value="Найти очки своей мечты" name="search" id="searchinput" /><input type="image" src="img/blue/header/searchbtn.gif" name="submit" /></div></form></div>
+	</div>
+</div>
+		<div id='breadcrumbs'>
+			<a href='#'>Главная страница</a> &#0187; 
+			<a href='#'>Очки для зрения</a>
+		</div>
+		<div id='container'>
+
+			<div id='abovebg'></div>
+			<div id='wrap'>
+			<div class='showall'>Соптировать по: <a href='#price'>Цене</a> | <a href='#pop'>Популярности</a></div><div class='section'><img src='img/blue/content/eyeglasses.png' alt='Очки для зрения' />Очки для зрения </div>
+			<div id='right'>
+				<div id='ramka'><div class='inright'><p class='rightheader'>Фильтр товара</p>
+				<div id='gender'>
+					<div class='men'><a href='#'>Мужчины</a></div>
+					<div class='women womenselected'><a href='#'>Женщины</a></div>
+					<div class='child childselected'><a href='#'>Дети</a></div>
+				</div>
+					<div id='sortbyprice'>
+						<div class='pricetop'><a href='#'>Цена от 1000 до 3000</a></div>
+						<div class='pricemid'><a href='#'>Цена от 3000 до 10000</a></div>
+						<div class='pricebot pricebotselected'><a href='#'>Цена от 10000</a></div>
+					</div>
+					<div id='pickcolor'>
+						<div class='colorpicker' style='background: #fff;'></div>
+						<div class='colorpicker' style='background: #fcf900;'></div>
+						<div class='colorpicker' style='background: #f00;'></div>
+						<div class='colorpicker' style='background: #636fff;'></div>
+						<div class='colorpicker picked' style='background: #000;'></div>
+						<div class='clear'></div>
+						<a href='#' class='filterlink'>+ Показать все цвета</a>
+					</div>
+					<p></p>
+					<div id='types'>
+						<p><a href='#type'><img src='img/blue/type/classic.png' alt='классические' /></a></p>
+						<p><a href='#type'><img src='img/blue/type/city.png' alt='городской стиль' /></a></p>
+						<p><a href='#type'><img src='img/blue/type/retro.png' alt='ретро' /></a></p>
+						<p><a href='#type'><img src='img/blue/type/retro2.png' alt='ретро' /></a></p>
+						<p><a href='#type'><img src='img/blue/type/avangard.png' alt='авангард' /></a></p>
+						<p><a href='#type'><img src='img/blue/type/sport.png' alt='спортивный стиль' /></a></p>
+					</div>
+				</div></div>
+				<div id='ramka'>
+					<div class='inright'>
+						<p class='rightheader'>Производители</p>
+						<div id='brands'>
+							<p><input type='checkbox' />Dsquared2</p>
+							<p><input type='checkbox' />Ferrari</p>
+							<p><input type='checkbox' />GF Ferre</p>
+							<p><input type='checkbox' />Montblanc</p>
+							<p><input type='checkbox' />Morgan</p>
+							<p><input type='checkbox' />Oakley</p>
+							<p><input type='checkbox' />Polaroid</p>
+							<p><input type='checkbox' />Replay</p>
+							<p><input type='checkbox' />SLP Enterprises LLC</p>
+							<div class='hole'></div>
+							<a href='#' class='filterlink'>Показать всех</a>
+						</div>
+					</div>
+				<div class='clear'></div></div>
+			</div>
+			<div id='content'>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+				<div class='block'>
+				 <img src='img/glasses/1.jpg' alt='Новинка' /> <p> <a href='#'>6058 - Black</a> </p>
+				  <h2>Savannah</h2> <strong> 2 890 руб. </strong> <div class='buybutton'><a href='#'>Купить</a>
+				</div></div>
+<div class='clear'></div>
+			</div></div>
+			<div id='belowbg'></div>
+	</div>
+	
+	<div id='spacer'></div>
+
+	<div id='footer'>
+		<div class='foot'><p>© 2012, Оптика+ </p>
+		<p>Интернет-магазин очков, линз, оправ. Всё, для ваших глаз. </p></div>
+
+		<div class='foot'><p>E-mail: <a href='mailto:info@optikaplus.ru'>info@optikaplus.ru</a> </p>
+		<p>Телефон: +7 (495) 280-40-15 </p>
+		<p>Адрес: г. Москва, Калинина 16 </p></div>
+
+		<div class='foot'><p>Все права защищены.</p>
+		<p>По любым вопросам общайтесь в нашу службу поддержки</p>
+		</div>
+		<div class='foot'><p>Здесь будут кнопки соцсетей, они добавляются уже под конкретный домен, т.к. в локальном макете будет вагон косяков.</p>
+		</div>
+	</div>
+
+</body>
+</html>
