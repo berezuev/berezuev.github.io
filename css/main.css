@@ -1,0 +1,18 @@
+
+html { 
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #eee;
+}
+* {font-family: 'Roboto Condensed', sans-serif;}
+a {color: #ff9214;}
+a:visited {color: #ffba6b;}
+h1 {margin:0;}
+h2 {margin:15px 0 0 0;}
+h3 {margin:15px 0 0 0;}
+h3.first {margin: 0;}
+.clr_both {clear:both;}
+.f_left {float: left;}
