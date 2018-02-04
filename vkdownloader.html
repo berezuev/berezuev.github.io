@@ -1,0 +1,54 @@
+<html>
+<title>vk downloader</title>
+<head>
+
+<style>
+div.json {
+	margin:auto;
+	width:100%;
+}
+div.json > textarea {
+
+	width:48%;
+	float:left;
+	display: block;
+}
+div.result { 
+	width: 48%;
+	margin-left: 10px;
+	float:left;
+}
+</style>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+	$('div.json > textarea').on('change keyup paste', function() {
+	  $('div.result').empty();
+	  let json = JSON.parse($(this).val());
+	  for (var item in json.response.items) {
+	  	item = json.response.items[item];
+	  	let files = item.files;
+	  	$('<a>',{
+		    text: item.title,
+		    title: item.title,
+		    href: files[Object.keys(files)[Object.keys(files).length - 1]],
+		    download: item.title
+		}).appendTo('div.result');
+		$('<br><br>').appendTo('div.result');
+	  }
+	});
+});
+</script>
+</head>
+
+<body>
+<h2>https://vk.com/dev/video.get to URLs converter. Not for public usage.</h2>
+
+<div class='json'>
+	<textarea rows='40'></textarea>
+	<div class='result'>Здесь будет результат</div>
+<div>
+</body>
